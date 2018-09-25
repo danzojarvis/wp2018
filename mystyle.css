@@ -1,6 +1,6 @@
 body{
 background-image:url("https://i.imgur.com/LHunNqA.jpg");
-width:90%;
+width:85%;
 height:100%;
 background-repeat:no-repeat;
 background-size:cover;
@@ -29,10 +29,10 @@ background-position:center;
               .logo img { 
                     max-height: auto;  
                     max-width: auto;
-                    width:5%;                                                                                     height: auto;
+                    width:3%;                                                                                     height: auto;
                     position: absolute;  
                     top:0% ;  
-                    bottom:65%;  
+                    bottom:64%;
                     left: 0;  
                     right:52%;
                     margin: auto;
