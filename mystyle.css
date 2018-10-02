@@ -8,6 +8,29 @@ background-size:cover;
 background-attachment:fixed;
 background-position:center;
 }
+#jersey1{
+  max-height:auto;
+  max-width:auto;
+  width:5%;
+  position:absolute;
+  top:17%;
+  bottom:0;  
+  left: 60%;  
+  right:0;
+  margin:auto;
+}
+#jersey2{
+  max-height:auto;
+  max-width:auto;
+  width:5%;
+  position:absolute;
+  top:17%;
+  bottom:0;  
+  left: 60%;  
+  right:0;
+  margin:auto;
+}
+
 .irving img{
   max-height:auto;
   max-width:auto;
@@ -56,5 +79,11 @@ background-position:center;
              color:#3baf6b;
              margin:auto;
              }
-           
+          table{
+            position: absolute;
+            top:40%;
+            left:100px;
+          }
+
         
+          
