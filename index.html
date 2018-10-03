@@ -4,39 +4,31 @@
   <head>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,500" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <title>Danzo Jarvis</title>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <style>
-      table {
-            font-family: 'Oswald',sans-serif;
-            font-size:100%;
-            border-collapse: collapse;
-            width: 50%;
-            top:30%;
-            left:30%;
-            }
+     
       th, td {
             text-align: left;
             padding: 8px;
             }
         tr:nth-child(even){background-color: #f2f2f2}
         th 
-        {   font-size:150%;
+        {   font-size:110%;
             background-color: #4CAF50;
             color: white;
+            text-shadow:3px 2px black;
           }
-          h2{ font-family: 'Oswald',sans-serif;
-          font-size:150%;
-          color:white;
-          }
+        
 
    </style>
   </head>
  <body>
     <div class="overout">
-  <h1>KYRIE IRVING</h1>
+      <h1>KYRIE IRVING</h1>
+        </div>
   <h2>Kyrie Irving imformation</h2>
-  
+  <h3>Hit me!</h3>  
   <table>
   <tr>
   <th>Team</th>
@@ -71,24 +63,17 @@
       <td>13-15, 17, 18</td>
     </tr>
   </table>
-      </div>
-    <p content>The construction process uses a Nitrogen cell Foam (25-40% recycled content) core for maximum strength and pop. The foam is closed cell, completely waterproof and won't absorb water.
-      Hexzylon Fibre Foam Skin, this is a smooth, strong, impact and ding resistant layer with the signature Hex pattern.
-      Next comes the unique Woven Basalt Fibre which is additive free super strong and resists heel dents.
-      The Bio-Matrix Resin is super strong and environmentally friendly with the best flex qualities of traditional PU and a longer lifespan than Epoxy.
-         Lib Tech surfboards are fitted with the lightest and toughest fin boxes on the market. They also use Sprock Blocks at the tail to add even more durability to the most fragile areas on the board. Even the leash plug has been given the same attention with 6061 T6 Aircraft aluminium pins and lightweight fibre composite cups."Since I first saw Lib Tech’s ECO ISO construction, I wanted to build a board with it. The strength to weight ratio, eco minded materials and techniques, and the fact that this tech was being built in the USA was incredibly interesting to me. I am stoked that the time has finally come and hope people enjoy riding them as we have enjoyed building them." – Matt Biolos
-    The Lost Puddle Fish surfboard by Matt Biolos was added to the Mayhem quiver after an extended period of flatness and small waves. The Puddle Fish has all the small wave ability of its predecessor the Puddle Jumper but with an injection of blistering speed and chuckability. The most obvious tweak to the original PJ is the inverted swallow tail set into a widened and squared off tail with a pronounced channel sitting inside the double concave vee delivering eye-watering speed and release. Less obvious changes to the original PJ include the wide point pushed a fraction further forward and the straightened rail line between the foot placements, both of which assist the board with more down-the-line speed and its ability to negotiate flat sections and mush. Matt set out to create a board with the dialled in speed of a alternative/retro Fish but without the sometimes limiting ability to snap turns in average surf, and stay in the pocket/critical part of the wave. </p>
+    
+    <p content> </p>
 
-  <div id="jersey1">
-    <img src="https://i.imgur.com/9fv7fDm.png">
+    <button class="button1"><img src="https://i.imgur.com/wVnl7qK.png?1"></button>
   </div>
-  <div id="jersey2">
-    <img src="https://i.imgur.com/SdLaTEH.png">
+  <div class="jersey2">
+    <img src="https://i.imgur.com/pfPEgs8.jpg?1">
   </div>
   <div class="irving">
        <img src="https://i.imgur.com/MSSBPy2.png">
      </div>
-  
      <div class="wave">
        <img src="https://i.imgur.com/6WMLwQv.png">
      </div>
@@ -113,7 +98,23 @@
       .mouseout(function(){
        $(".irving img").css({"filter":"drop-shadow(0px 0px 0px #3baf6b)"});
      })
-     </script>
+   </script>
+  <script>
+     $(".button1")
+     .mouseover(function(){
+       $(".button1").css({"filter":"drop-shadow(0px 0px 10px yellow)"});
+     })
+      .mouseout(function(){
+       $(".button1").css({"filter":"drop-shadow(0px 0px 0px yellow)"});
+     })
+     <script type="text/javascript" src="/jquery/jquery.js"></script>
+     <script type="text/javascript">
+  
+      $(".button1").click(function(){
+         $(".jersey2").slideToggle();
+           });
+    
+               </script>
   </body>
 </html>
 
